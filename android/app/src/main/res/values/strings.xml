@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SATI AGIO</string>
+    <string name="title_activity_main">SATI AGIO</string>
+    <string name="package_name">com.sati.agio</string>
+    <string name="custom_url_scheme">com.sati.agio</string>
+</resources>

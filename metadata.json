@@ -1,0 +1,7 @@
+{
+  "name": "SATI - Sistema de Assistência Técnica Integrado",
+  "description": "A comprehensive, professional, and automated management system for technical assistance companies, covering sales, stock, service orders, and reporting.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

@@ -1,0 +1,15 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  # Skips downloading the Electron binary during npm install.
+  # This fixes the "504 Gateway Time-out" error on Netlify since
+  # we only need the web build, not the desktop binary.
+  ELECTRON_SKIP_BINARY_DOWNLOAD = "1"
+
+# SPA Fallback for React Router
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

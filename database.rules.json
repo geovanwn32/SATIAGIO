@@ -1,0 +1,12 @@
+{
+    "rules": {
+        "usuarios": {
+            ".read": "auth.token.email === 'geovaniwn@gmail.com'",
+            ".write": "auth.token.email === 'geovaniwn@gmail.com'",
+            "$uid": {
+                ".read": "auth != null && (auth.uid === $uid || auth.token.email === 'geovaniwn@gmail.com')",
+                ".write": "auth != null && (auth.uid === $uid || auth.token.email === 'geovaniwn@gmail.com')"
+            }
+        }
+    }
+}
